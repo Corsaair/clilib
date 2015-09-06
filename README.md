@@ -24,3 +24,17 @@ example
       [ia32]      Intel x86
 ```
 
+
+Usage
+-----
+
+```as3
+import shell.Program;
+import cli.args.*;
+
+var parser:ArgParser = new ArgParser();
+var results:ArgResults = parser.parse( Program.argv );
+//etc.
+
+```
+

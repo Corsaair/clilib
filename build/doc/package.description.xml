@@ -1,0 +1,30 @@
+<overviews>
+	<all-packages>
+		<description><![CDATA[
+			The &lt;b&gt;Command-line Utilities&lt;/b&gt; library.&lt;br&gt;
+			&lt;br&gt;
+			
+			Different classes, helpers, etc. to help build command-line tools with Redtamarin.
+			&lt;br&gt;
+			&lt;br&gt;
+			&lt;a href="https://github.com/Corsaair/clilib/wiki" target="_blank"&gt;Wiki Documentation&lt;/a&gt;
+		]]></description>
+	</all-packages>
+	<packages>
+
+		<package name="cli.args" >
+			<shortDescription><![CDATA[Command-line Arguments utilities.]]></shortDescription>
+			<description><![CDATA[
+				Parses raw command-line arguments into a set of options and values.
+				&lt;br&gt;
+				This library supports GNU and POSIX style options.
+				&lt;br&gt;
+				&lt;br&gt;
+				Ported from &lt;a href="https://github.com/dart-lang/args" target="_blank"&gt;dart-lang/args&lt;/a&gt;
+				&lt;br&gt;
+				A command-line argument parsing library for Dart.
+			]]></description>
+		</package>
+		
+	</packages>
+</overviews>

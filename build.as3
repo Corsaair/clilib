@@ -1,0 +1,11 @@
+import redbean.*;
+import shell.FileSystem;
+
+compile( "src/clilib.as" );
+
+if( FileSystem.exists( "clilib.abc" ) )
+{
+	FileSystem.removeFile( "clilib.abc" );
+}
+
+FileSystem.move( "src/clilib.abc", "clilib.abc" );
